@@ -17,8 +17,8 @@ If you do **not** have an existing version of the RDP Integration Accelerator in
 
 ### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
 - Install the following transport requests:
-  - **Fixes -> TR 910061.BP7** ????or TR 900230.BMT???
-  - **Fixes -> TR 900101.BP7** ??? is this needed ???
+  - **Fixes -> TR 900230.BMT
+
 
 ### **Step 3:  Install Customizing objects**
 - **RDP reports Customizing:**
@@ -33,7 +33,7 @@ If you already have **RDP Integration Accelerator V5** installed and want to upg
 
 ### **Step 1: Install Delta Technical Objects**
 - Install **RDP/EPR ABAP Technical Objects**:
-  - **TR 901359.BP7 (Note: Prerequisite: All RDP IA V5 fixes should already be installed)**.
+  - **TR 901359.BP7 (Note: Prerequisite: All RDP IA V5 fixes should already be installed. Latest TR installed for V5 should be TR 900289.BMT)**.
 - Install **PLM ABAP Technical Objects (Only install this if the UI component **PLMWUI** is present in your system)**:
   - **TR 901336.BP7**.
 
@@ -43,6 +43,19 @@ If you already have **RDP Integration Accelerator V5** installed and want to upg
 - **Packaging Data reports Delta Customizing (will overwrite existing customizing ):**
   - Install **RDP ABAP Technical Objects -> TR 901348.BP7**
 ---
+
+---
+## Apply Fixes (Mandatory for All Installations)
+
+Regardless of whether you are performing a fresh installation or an update, it is essential to install any available fixes to ensure stability and compatibility.
+Details on addressed issues or features can be verified [here](Fixes).  
+Install all available fixes/transport requests from [Fixes](Fixes) folder in the specified sequence below:
+
+1. **Fixes -> TR **
+
+
+Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes or new features and ensure they are installed.
+
 
 ## Notes
 - Ensure all transport requests are imported **in the specified sequence**.
