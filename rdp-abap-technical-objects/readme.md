@@ -42,7 +42,7 @@ If you already have **RDP Integration Accelerator V5** installed and want to upg
   - Install **RDP/EPR ABAP Technical Objects -> TR 901346.BP7**
 - **Packaging Data reports Delta Customizing (will overwrite existing customizing ):**
   - Install **RDP ABAP Technical Objects -> TR 901348.BP7**
----
+
 ## **Upgrade from Older Versions of the Accelerator**
 If you are running an **older version** of the RDP Integration Accelerator (prior to V5), you must first upgrade to **V5** before proceeding to V6. 
 
