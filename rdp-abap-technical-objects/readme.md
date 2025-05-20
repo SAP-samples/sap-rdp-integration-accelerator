@@ -55,7 +55,7 @@ Regardless of whether you are performing a fresh installation or an update, it i
 Details on addressed issues or features can be verified [here](Fixes).  
 Install all available fixes/transport requests from [Fixes](Fixes) folder in the specified sequence below:
 
-1. **Fixes -> TR **
+1. **Fixes -> TR 901380.BP7
 
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes or new features and ensure they are installed.
