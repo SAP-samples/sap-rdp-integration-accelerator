@@ -56,8 +56,8 @@ Details on addressed issues or features can be verified [here](Fixes).
 Install all available fixes/new features transport requests from [Fixes](Fixes) folder in the specified sequence below:
 
 1. **Fixes -> TR 901380.BP7
-2. **Update to Version 6.0.1** (Details on changes introduced in V6.0.1 are available in the [Fixes](Fixes) folder)
-   2.1 **TR 901394.BP7** – General update.
+2. **Update to Version 6.0.1** (Details on changes introduced in V6.0.1 are available in the [Fixes](Fixes) folder)<br>
+   2.1 **TR 901394.BP7** – General update.<br>
    2.2 **TR 901395.BP7** – Additional update for reports for PLM data replication.  ⚠️ *Only install this transport if the UI component **PLMWUI** is present in your system.*
 
 
