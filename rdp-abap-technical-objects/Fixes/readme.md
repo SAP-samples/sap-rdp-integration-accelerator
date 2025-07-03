@@ -51,6 +51,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
       ### **TR 901410.BP7** 
 
       ### ✨ Features added
+      
 	* Added "Cross Plant Valid From Date" filter in Product report (MARA-MSTDE)
  	* Secondary database connection parameter to be used when retrieving data for the Delivery and Material Documents reports
 	* Improve the logic when determining ShipFromCountry field for Material Documents replication, in case plant address data is empty 
