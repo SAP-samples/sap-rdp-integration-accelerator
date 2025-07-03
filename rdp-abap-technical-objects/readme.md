@@ -49,7 +49,7 @@ If you are running an **older version** of the RDP Integration Accelerator (prio
 - Customers using an older version should open a **support ticket** under the **SV-COE-VPT-RDP** component. SAP will provide guidance and the necessary transport requests to first upgrade to **V5** before continuing with the V6 upgrade.
 
 ---
-## Apply Fixes (Mandatory for All Installations)
+## Apply Fixes/Updates (Mandatory for All Installations)
 
 Regardless of whether you are performing a fresh installation or an update, it is essential to install any available fixes to ensure stability and compatibility.
 Details on addressed issues or features can be verified [here](Fixes).  
@@ -59,6 +59,8 @@ Install all available fixes/new features transport requests from [Fixes](Fixes) 
 2. **Update to Version 6.0.1** (Details on changes introduced in V6.0.1 are available in the [Fixes](Fixes) folder)<br>
    2.1 **TR 901394.BP7** – General update.<br>
    2.2 **TR 901395.BP7** – Additional update for reports for PLM data replication.  ⚠️ *Only install this transport if the UI component **PLMWUI** is present in your system.*
+3. **Update to Version 6.0.2** (Details on changes introduced in V6.0.2 are available in the [Fixes](Fixes) folder)<br>
+   2.1 **TR 901410.BP7** – General update.<br>
 
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes or new features and ensure they are installed.

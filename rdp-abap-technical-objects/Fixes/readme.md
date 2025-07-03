@@ -46,10 +46,22 @@ This document provides details on the fixes available in the **Fixes** folder. A
       
       * New version for User guide has been updated with details on the features introduced  
       
+### **Update: V6.0.2 – July 2025**: 
+
+      ### **TR 901410.BP7** 
+
+      ### ✨ Features added
+	* Added "Cross Plant Valid From Date" filter in Product report (MARA-MSTDE).  
+      	* Secondary database connection parameter to be used when retrieving data for the Delivery and Material Documents reports.
+	* Improve the logic when determining ShipFromCountry field for Material Documents replication, in case plant address data is empty.  
+
+	### 📘 Documentation
+      
+      * New version for User guide has been updated with details on the features introduced
 
 ---
 ### **Installation Instructions for fixes**
-To apply available fixes:
+To apply available fixes/updates:
 1. Ensure that the base **RDP Integration Accelerator** package is installed.
 2. Import all available TRs in [the specified order](/rdp-abap-technical-objects#apply-fixes-mandatory-for-all-installations) using your transport management system.
 
