@@ -48,7 +48,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
       
 ### **Update: V6.0.2 – July 2025**: 
 
-      ### **TR 901410.BP7** 
+      ### **TR 901413.BP7** 
 
       ### ✨ Features added
       
