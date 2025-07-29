@@ -28,7 +28,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
       * Excel templates cleaned to display English-only tax number descriptions
       * Company code (`BUKRS`) added to plant structure in Organization report
       * Product replication (including delta load) now skips plant validation (products are sent even when Plant is not maintained for a specific product)
-      * New version constant introduced in code indicating release version V6.0.1
+      * New version constant introduced in code indicating release version 
            
       ### 🛠 Fixes
       
@@ -59,6 +59,24 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	### 📘 Documentation
       
       * New version for User guide has been updated with details on the features introduced
+
+### **Update: V6.0.3 – July 2025**: 
+
+      ### **TR 901420.BP7** 
+
+      ### ✨ Features added
+      
+	* Multiple Material Types can now be configured for Product replication in the Application parameter section. 	* Delivery replication - 'Send related customers before'
+	When enabled, delta customers related to the selected deliveries are sent before the deliveries
+	* Add a sample badi impl for this API call /GetPackagingCompositonsForProduct, to get all pack comp IDs that belongs to a product for a given validity period, business process direction and supplier ID
+	* Improve logs and traceability by adding a new report /VPCOE/TRACE_MAINTENANCE helping customers tarcing data sent successfully or not.  
+	* Handling Units reports - Handling Units replication updated to use RDP V2 APIs. 
+	* Sample BAdI implementation added for RDP API /GetPackagingCompositionsForProduct
+	
+      ### 📘 Documentation
+      
+      * New version for User guide has been updated with details on the features introduced
+
 
 ---
 ### **Installation Instructions for fixes**
