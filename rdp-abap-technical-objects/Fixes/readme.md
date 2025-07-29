@@ -66,7 +66,8 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
       ### ✨ Features added
       
-	* Multiple Material Types can now be configured for Product replication in the Application parameter section. 	* Delivery replication - 'Send related customers before'
+	* Multiple Material Types can now be configured for Product replication in the Application parameter section.
+	* Delivery replication - 'Send related customers before'
 	When enabled, delta customers related to the selected deliveries are sent before the deliveries
 	* Add a sample badi impl for this API call /GetPackagingCompositonsForProduct, to get all pack comp IDs that belongs to a product for a given validity period, business process direction and supplier ID
 	* Improve logs and traceability by adding a new report /VPCOE/TRACE_MAINTENANCE helping customers tarcing data sent successfully or not.  
