@@ -33,7 +33,7 @@ To install/update the RDP Integration Accelerator package:
 
 1. Upload the provided transport files using transaction **CG3Z** or any relevant function modules/tcodes in your system.
 2. Import transport requests in the specified sequence (see [installation steps](rdp-abap-technical-objects/readme.md)).
-3. Perform the configuration steps described in the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v6_0.3.pdf).
+3. Perform the configuration steps described in the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v6_0.4.pdf).
    - Ensure all prerequisites for initial setup on BTP account and subaccount are fulfilled (More details on [BTP configurations](https://help.sap.com/docs/sap-responsible-design-and-production/user-guide-sap-rdp/initial-setup).
    - Configure RFC destinations (**SM59**) for HTTPS communication with the RDP API.
    - Maintain service path prefixes (optional).
