@@ -64,7 +64,7 @@ Install all available fixes/new features transport requests from [Fixes](Fixes) 
 4. **Update to Version 6.0.3** (Details on changes introduced in V6.0.3 are available in the [Fixes](Fixes) folder)<br>
    4.1 **TR 901420.BP7** – General update.<br>
 5. **Update to Version 6.0.4** (Details on changes introduced in V6.0.4 are available in the [Fixes](Fixes) folder)<br>
-   4.1 **TR 901435.BP7** – General update.<br>
+   5.1 **TR 901435.BP7** – General update.<br>
 
 
 
