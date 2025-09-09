@@ -101,8 +101,8 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
       ### ✨ Features added
       
-	* Improved logic for handling **Material Documents** that include **Quality Management documents**  
-     	* Added new filters for **Material Document report**:  
+	* Improved logic for handling **Material Documents** that include Quality Management documents  
+    * Added new filters for **Material Document report**:  
         	- Material Type  
         	- Sales Organization of Material 
 	* Removed restriction limiting selection of up to 20 Material IDs in Packaging Compositions from BOM and Packaging Elements from MCL reports
