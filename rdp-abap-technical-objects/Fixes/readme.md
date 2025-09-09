@@ -85,10 +85,10 @@ This document provides details on the fixes available in the **Fixes** folder. A
       ### ✨ Features added
       
 	* Catch Weight materials - optional
-		- Introducing a new application parameter allowing customers to make optional the catch weight 			materials during delivery replication 
-		- By default, the value of the application parameter is empty (false), meaning the quantities in base 		unit of measure will be used. 
-		- Packaging compositions in RDP are defined either in the product base unit of measure or in one of 		the alternative UoMs that can be converted to the base UoM. Therefore, catch weight quantities are not 		relevant for RDP (RDP needs the quantity in the base unit of measure).
-		- Unless there is a specific business reason to send catch weight materials to RDP, the quantities in 		the base unit of measure should be sent.
+		- Introducing a new application parameter allowing customers to make optional the catch weight 	materials during delivery replication 
+		- By default, the value of the application parameter is empty (false), meaning the quantities in base unit of measure will be used. 
+		- Packaging compositions in RDP are defined either in the product base unit of measure or in one of the alternative UoMs that can be converted to the base UoM. Therefore, catch weight quantities are not relevant for RDP (RDP needs the quantity in the base unit of measure).
+		- Unless there is a specific business reason to send catch weight materials to RDP, the quantities in the base unit of measure should be sent.
 
 	
       ### 📘 Documentation
@@ -105,7 +105,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
      	* Added new filters for **Material Document report**:  
         	- Material Type  
         	- Sales Organization of Material 
-
+	* Removed restriction limiting selection of up to 20 Material IDs in Packaging Compositions from BOM and Packaging Elements from MCL reports
 	
       ### 📘 Documentation
       
