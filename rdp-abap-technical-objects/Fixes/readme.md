@@ -95,6 +95,22 @@ This document provides details on the fixes available in the **Fixes** folder. A
       
       * New version for User guide has been updated with details on the features introduced
 
+### **Update: V6.0.5 – September 9th 2025**: 
+
+      ### **TR 901440.BP7** 
+
+      ### ✨ Features added
+      
+	* Improved logic for handling **Material Documents** that include **Quality Management documents**  
+     	* Added new filters for **Material Document report**:  
+        	- Material Type  
+        	- Sales Organization of Material 
+
+	
+      ### 📘 Documentation
+      
+      * New version for User guide has been updated with details on the features introduced
+
 
 ---
 ### **Installation Instructions for fixes**
