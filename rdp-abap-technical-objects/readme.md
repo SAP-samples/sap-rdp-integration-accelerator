@@ -61,13 +61,13 @@ Install all available fixes/new features transport requests from [Fixes](Fixes) 
    2.2 **TR 901395.BP7** – Additional update for reports for PLM data replication.  ⚠️ *Only install this transport if the UI component **PLMWUI** is present in your system.*
 3. Update: Version V6.0.2 – TR 901413.BP7
 
-4. Update: Version V6.0.3 – TR 901420.BP7
+4. **Update: Version V6.0.3** – TR 901420.BP7
 
-5. Update: Version V6.0.4 – TR 901435.BP7
+5. **Update: Version V6.0.4** – TR 901435.BP7
 
-6. Update: Version V6.0.5 – TR 901440.BP7
+6. **Update: Version V6.0.5** – TR 901440.BP7
 
-7. Update: Version V6.0.6 – TR 901467.BP7
+7. **Update: Version V6.0.6** – TR 901467.BP7
 
 📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
 
