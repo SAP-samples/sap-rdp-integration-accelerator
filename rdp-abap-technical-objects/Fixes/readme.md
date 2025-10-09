@@ -113,7 +113,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V6.0.6 – October 2025**
 
-	### **TR 901467.BP7**
+	### **TR 901473.BP7**
 
 	### ✨ Features and Fixes
 

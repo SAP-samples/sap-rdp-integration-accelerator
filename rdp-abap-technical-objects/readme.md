@@ -67,7 +67,7 @@ Install all available fixes/new features transport requests from [Fixes](Fixes) 
 
 6. **Update: Version V6.0.5** – TR 901440.BP7
 
-7. **Update: Version V6.0.6** – TR 901467.BP7
+7. **Update: Version V6.0.6** – TR 901473.BP7
 
 📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
 
