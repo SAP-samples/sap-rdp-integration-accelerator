@@ -113,33 +113,33 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V6.0.6 – October 2025**
 
-### **TR 901467.BP7**
+	### **TR 901467.BP7**
 
-### ✨ Features and Fixes
+	### ✨ Features and Fixes
 
-* **Packaging compositions from BoM Report**
-  - Optimized logic in determine BOM to avoid short dumps when material type is missing.
-  - Improved error handling for delta load scenario.
+	* **Packaging compositions from BoM Report**
+	  - Optimized logic in determine BOM to avoid short dumps when material type is missing.
+	  - Improved error handling for delta load scenario.
+	
+	* **Packaging Fee API V2**
+	  - Introduced support for **RDP Packaging Fee API V2** .
+	  - Adjusted ABAP structures and logic to align with the new API specification.
+	  - Both V1 and V2 are supported; customers can select the version via RFC connection path.
+	  - When RDP API V2 is preferred the `Context` field is removed form selection screen (as this is obsolete field in V2), adjusted renamed attributes, and updated sample BAdI mapping recommendations.
+	
+	* **Packaging Element Report from Material Classification**
+	  - Added support for the new attributes `isExpanded` and `Functions` under the *Fraction* node, aligned with **RDP Packaging Data V2 API**.
+	  
+	* **Material Document report**
+	  - Performance improvement in the material document selection and in Country Determination method.
+	  - Display mode - Fixed issue where duplicate log entries appeared when no data was found.
+	
+	* **Packaging Data Validation**
+	  - Introduced validation ensuring that API paths defined in the RFC connection(s) and in the Configuration settings for services match the same API version
 
-* **Packaging Fee API V2**
-  - Introduced support for **RDP Packaging Fee API V2** .
-  - Adjusted ABAP structures and logic to align with the new API specification.
-  - Both V1 and V2 are supported; customers can select the version via RFC connection path.
-  - When RDP API V2 is preferred the `Context` field is removed form selection screen (as this is obsolete field in V2), adjusted renamed attributes, and updated sample BAdI mapping recommendations.
+	### 📘 Documentation
 
-* **Packaging Element Report from Material Classification**
-  - Added support for the new attributes `isExpanded` and `Functions` under the *Fraction* node, aligned with **RDP Packaging Data V2 API**.
-  
-* **Material Document report**
-  - Performance improvement in the material document selection and in Country Determination method.
-  - Display mode - Fixed issue where duplicate log entries appeared when no data was found.
-
-* **Packaging Data Validation**
-  - Introduced validation ensuring that API paths defined in the RFC connection(s) and in the Configuration settings for services match the same API version
-
-### 📘 Documentation
-
-* User Guide updated with details on the new features and adjustments.
+	* User Guide updated with details on the new features and adjustments.
 
 
 ---
