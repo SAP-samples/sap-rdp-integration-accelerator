@@ -141,6 +141,14 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	* User Guide updated with details on the new features and adjustments.
 
+### **Update: V6.0.7 – October 2025**
+
+	### **TR 901481.BP7**
+
+	### ✨ Features and Fixes
+
+	* **Material documents replication report**
+	  - Adjust the logic for determining the ShipToCountry attribute, to correctly handle cases where a receiving vendor is maintained on the corresponding Purchase Order
 
 ---
 ### **Installation Instructions for fixes**
