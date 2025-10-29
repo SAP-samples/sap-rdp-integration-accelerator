@@ -113,7 +113,8 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V6.0.6 – October 2025**
 
-	### **TR 901473.BP7**
+	### **TR 901473.BP7** and
+	    **TR 900518.M19**
 
 	### ✨ Features and Fixes
 
@@ -127,7 +128,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	  - Both V1 and V2 are supported; customers can select the version via RFC connection path.
 	  - When RDP API V2 is preferred the `Context` field is removed form selection screen (as this is obsolete field in V2), adjusted renamed attributes, and updated sample BAdI mapping recommendations.
 	
-	* **Packaging Element Report from Material Classification**
+	* **Packaging Element Report from Material Classification (this functionality is included in TR 900518.M19)**
 	  - Added support for the new attributes `isExpanded` and `Functions` under the *Fraction* node, aligned with **RDP Packaging Data V2 API**.
 	  
 	* **Material Document report**
