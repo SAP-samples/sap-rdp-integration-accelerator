@@ -151,6 +151,62 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	* **Material documents replication report**
 	  - Adjust the logic for determining the ShipToCountry attribute, to correctly handle cases where a receiving vendor is maintained on the corresponding Purchase Order
 
+### **Update: V6.1 – December 2025**
+
+	### **TR 901515.BP7**
+
+      ⚠️ **Important Note – Impact on Pack Fee Replication Report**
+
+      A new mandatory selection parameter **Load ID** has been introduced for Delta Load execution in the **Packaging Fee Retrieval** report.
+
+      * Existing scheduled background jobs for “Retrieving Pack Fee – Delta Load” **will fail** unless batch jobs are updated to include this new parameter.
+      * Customers must **update their job variants** and verify the selected Load ID.
+      * Customer-specific **BAdI implementations**, especially those enhancing retrieval or posting logic, may require adjustments to align with the updated report logic.
+
+      It is highly recommended that customers review their automation and BAdI code before importing this update to avoid interruptions in replication processes.
+
+      ### ✨ Enhancements & Fixes
+
+      * **Packaging Fee – Retrieving & Posting Reports Adjustments**  
+        The RDP Pack Fee API now supports multiple delta tokens in parallel.  
+        Major functional enhancements include:
+        - Allow customers to maintain **separate delta runs per variant**
+        - During initial load, the variant name is stored together with the delta token
+        - Delta load must be executed **per variant**
+        - Retrieved data is saved and archived
+        - Added option to **post retrieved data directly** from the same report (via radio button)
+
+      * **Handling Unit Report Adjustments**
+        - Fix for correct handling of the entity mapper class
+
+      * **HTTP Protocol Version – Updated Logic for JSON Header**
+        - SM59 configuration now determines whether HTTP 1.0 or HTTP 1.1 is used when replicating data to RDP
+        - System automatically sets correct protocol version in HTTP requests
+
+      * **Determination of BOM Valid-To Field – Plant Added to Sorting Attribute**
+        - Ensures BOMs assigned to multiple plants appear correctly  
+        - Fix implemented without impacting existing customer BAdI logic
+
+      * **Material Document – Country Determination Priority Update**
+        - Implemented logic for prioritizing **country of target customer**  
+          (relevant for drop shipment scenarios)
+
+      * **Packaging Fee Reports – Added Missing Authorization Objects**
+        New authorization objects introduced for:
+        - Customer Role
+        - Company Code Exemptions
+        - Customer Exemptions
+
+      * **Delivery Report – Fix in Package Splitting**
+        - Adjustment in the package-splitting logic, in case BAdI is implemented
+
+      * **Bug in Example Implementation – Material Classification Fraction Mapping Versioning**
+        - Fix for missing **VERP** material in BOM processing
+        - Corrections in BOM where-used determination when components have no assigned material
+        - Includes performance improvements
+
+
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
