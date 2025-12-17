@@ -153,7 +153,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V6.1 – December 2025**
 
-	### **TR 901515.BP7**
+	### **TR 901524.BP7**
 
       ⚠️ **Important Note – Impact on Pack Fee Replication Report**
 
