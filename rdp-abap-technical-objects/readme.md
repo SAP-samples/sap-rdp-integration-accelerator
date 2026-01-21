@@ -71,8 +71,6 @@ Install all available fixes/new features transport requests from [Fixes](Fixes) 
 
 8. **Update: Version V6.0.7** – TR 901481.BP7
 
-📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
-
 9. ## **Update: Version V6.1.0** – TR 901524.BP7
 
 Version **V6.1.0** is a consolidated update that includes:
@@ -83,6 +81,10 @@ Version **V6.1.0** is a consolidated update that includes:
 Note: New customers can skip point 1 to point 8 and install instead TR for V6.1.0
 
 📂 Details on changes introduced in V6.1 are available in the [Fixes](Fixes) folder
+
+10. **Update: Version V6.1.1** – TR 900528.M19
+    
+📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
 
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes or new features and ensure they are installed.
 
