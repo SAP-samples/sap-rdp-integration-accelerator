@@ -205,7 +205,16 @@ This document provides details on the fixes available in the **Fixes** folder. A
         - Corrections in BOM where-used determination when components have no assigned material
         - Includes performance improvements
 
+### **Update: V6.1.1 – January 2026**
 
+	### **TR 900528.M19**
+
+	### ✨ Features and Fixes
+
+	* **Delivery documents replication report**
+	  -  Adjusted the logic to correctly send all objects split across multiple packages. Previously, objects starting from the second package were not sent.  
+	* **Packaging element from material classification report**
+	  - Fixed a short dump caused by an unassigned field symbol.    
 
 ---
 ### **Installation Instructions for fixes**
