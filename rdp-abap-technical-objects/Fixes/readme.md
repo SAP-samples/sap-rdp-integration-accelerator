@@ -229,11 +229,10 @@ This document provides details on the fixes available in the **Fixes** folder. A
   		  - plant
   		  - shipToParty
  		  - distributionChannel
- 		 These attributes allow more accurate replication of packaging composition variants across different 		operational contexts.
+ 		 These attributes allow more accurate replication of packaging composition variants across different operational contexts.
 
 	- Batch Report – Enhanced Support for ProductionPlant
-  		The Batch replication report has been updated to handle the ProductionPlant attribute, 
- 	 	enabling improved data consistency and alignment with upstream manufacturing processes.   
+  		The Batch replication report has been updated to handle the ProductionPlant attribute (as part of characteristics data), enabling improved data consistency and alignment with upstream manufacturing processes.   
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
