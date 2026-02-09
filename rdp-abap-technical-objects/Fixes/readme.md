@@ -216,6 +216,24 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	* **Packaging element from material classification report**
 	  - Fixed a short dump caused by an unassigned field symbol.    
 
+### **Update: V6.1.2 – February 2026**
+
+	### **TR 900529.M19**
+
+	### ✨ Features and Fixes
+
+	* **Support for Packaging Composition Variants**
+	  - Packaging Data Reports – Support for Packaging Composition Variants
+ 		 Adjustments were implemented to include additional variant-defining attributes:
+  		  - productionPlant
+  		  - plant
+  		  - shipToParty
+ 		  - distributionChannel
+ 		 These attributes allow more accurate replication of packaging composition variants across different 		operational contexts.
+
+	- Batch Report – Enhanced Support for ProductionPlant
+  		The Batch replication report has been updated to handle the ProductionPlant attribute, 
+ 	 	enabling improved data consistency and alignment with upstream manufacturing processes.   
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:

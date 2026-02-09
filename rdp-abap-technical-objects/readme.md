@@ -86,6 +86,11 @@ Note: New customers can skip point 1 to point 8 and install instead TR for V6.1.
     
 📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
 
+11. **Update: Version V6.1.2** – TR 900529.M19
+    
+📂 Details on changes introduced in each version are available in the [Fixes](Fixes) folder.
+
+
 Note: Additional fixes may be provided in the future. Customers should always check for the latest available fixes or new features and ensure they are installed.
 
 
