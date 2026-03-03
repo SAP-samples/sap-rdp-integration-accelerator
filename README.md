@@ -9,6 +9,8 @@ The SAP Responsible Design and Production (RDP) Integration Accelerator is an AB
 
 The code in the ABAP package can be used as it is published in this repository, or you can use it as a sample reference for your own implementation. However, if you require support, you must use it as it is and enhance it if needed via BAdI implementation.
 
+Starting with version **V7**, the accelerator supports data replication using **both the RDP Push API and the SAP Sustainability Solutions (SDF) API**, giving customers flexibility to choose the preferred integration method.
+
 ## Requirements
 
 - SAP ERP ECC 6.0 EHP7 SP16 (or later)/EHP8 or S/4HANA 1909/2021.
