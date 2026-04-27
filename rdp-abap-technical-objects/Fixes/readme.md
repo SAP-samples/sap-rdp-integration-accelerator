@@ -264,6 +264,10 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	- Improved logic for tax number determination:
   		- Uses CVI data when available (Fallback to KNA1/KNAS (Customer) or LFA1/LFAS (Supplier) if CVI is not 		maintained)
 
+	* **Packaging data replication reports - Extensibility Enhancements for ABAP Structures
+	- Enhanced standard ABAP structures to improve extensibility  
+	- Enables customers to add additional attributes without replacing standard logic 
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
