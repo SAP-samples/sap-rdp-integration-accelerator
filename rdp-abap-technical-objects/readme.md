@@ -128,7 +128,7 @@ Full API comparison, configuration requirements, and usage scenarios are documen
 ### **Step 1: Install Technical Objects**
 1. **Install the V7 technical transports:**
 - **TR 901557.BP7** – RDP/EPR technical objects 
-- **TR 901568.BP7 ** – PLM reports (*This transport contains reports for data replication from PLM. Only install this if the UI component PLMWUI is present in your system*)
+- **TR 901568.BP7** – PLM reports (*This transport contains reports for data replication from PLM. Only install this if the UI component PLMWUI is present in your system*)
 
 2. **Note on SAP SP Level Issues:**
 
@@ -139,7 +139,7 @@ If you are on a lower SAP SP level, you may encounter errors related to the `/UI
 
 ### **Step 2: Apply Fixes (ONLY for NW version 7.4 SP15 or lower)**
 Install:
-- **Fixes → TR 900230.BMT
+- **Fixes → TR 900230.BMT**
 
 ### **Step 3: Install Customizing Objects**
 - **TR 901346.BP7** – RDP customizing  
@@ -162,12 +162,10 @@ Install:
 
 </details>
 ---
-<br>
 
 # **V7 – Fixes and Updates**
 <details open>
 <summary><strong>Click to expand fixes & updates for Version V7</strong></summary>
-<br>
 
 ## Apply Fixes/Updates (Mandatory)
 
