@@ -160,13 +160,12 @@ Install:
 - If you encounter issues, open a support ticket via:  
   [SAP ONE Support](https://support.sap.com/en/index.html), Component: **SV-COE-VPT-RDP**
 
+</details>
 ---
-
 <br>
 
 # **V7 – Fixes and Updates**
-
-
+<details open>
 <summary><strong>Click to expand fixes & updates for Version V7</strong></summary>
 <br>
 
