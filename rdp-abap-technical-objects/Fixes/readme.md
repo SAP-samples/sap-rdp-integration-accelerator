@@ -233,6 +233,37 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	- Batch Report – Enhanced Support for ProductionPlant
   		The Batch replication report has been updated to handle the ProductionPlant attribute (as part of characteristics data), enabling improved data consistency and alignment with upstream manufacturing processes.   
+
+### **Update: V7.0 – March 2026**
+
+	### **TR 901559.BP7 – install only for upgrade from V6 to V7; skip for fresh installation**
+
+	### ✨ Features 
+
+	* **Introduces support for **two APIs**:
+		- **RDP Push API** (traditional API used in previous accelerator versions)  
+		- **SAP Sustainability Solutions API (SDF API)** — new in V7 
+
+### **Update: V7.0.1 – April 2026**
+
+	### **TR 901589.BP7**
+
+	### ✨ Features and Fixes
+
+	* **Packaging Data – Delta Token Support (BOM)
+		- Implemented delta token handling for Packaging Composition from BOM report
+		- Enables efficient delta-based replication
+	
+	* **Configuration Data – Product Brand Replication
+		- Added support for Product Brand replication via Configuration Data report
+
+	* **Packaging Element – refillType Support
+		- Added support for refillType attribute in Packaging Element replication
+	
+	* **Customer / Supplier Tax Number (CVI)
+	- Improved logic for tax number determination:
+  		- Uses CVI data when available (Fallback to KNA1/KNAS (Customer) or LFA1/LFAS (Supplier) if CVI is not 		maintained)
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
