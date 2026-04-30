@@ -247,6 +247,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 ### **Update: V7.0.1 – April 2026**
 
 	### **TR 901589.BP7**
+	    **TR 901590.BP7**
 
 	### ✨ Features and Fixes
 
