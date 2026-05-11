@@ -170,9 +170,10 @@ Install:
 
 Install all available fixes/new features transport requests from the [Fixes](Fixes) folder in the specified sequence below:
 
-1. **Updates Version V7.0.1**
-   - **TR 901589.BP7** - General Update
-   - **TR 901590.BP7** – PLM reports update 
+1. **Update V7.0.1**
+   → **TR 901589.BP7** - General Update
+   → **TR 901590.BP7** – PLM reports update 
+2. **Update V7.0.2** → TR **901609.BP7**
 
 </details>
 

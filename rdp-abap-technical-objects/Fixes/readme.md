@@ -269,6 +269,15 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	- Enhanced standard ABAP structures to improve extensibility  
 	- Enables customers to add additional attributes without replacing standard logic 
 
+### **Update: V7.0.2 – May 2026**
+
+	### **TR 901609.BP7**
+
+	### ✨ Features and Fixes
+
+	* **Performance Improvements**
+	  - Material Document Replication – The selection logic has been enhanced to additionally include Company code to allows 	    the database to leverage the primary key more efficiently.
+ 		
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
