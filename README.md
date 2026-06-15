@@ -23,7 +23,7 @@ Starting with version **V7**, the accelerator supports data replication using **
 - Preconfigured ABAP reports for data replication.
 - Compatibility with master data and transactional data.
 - Support for both initial and delta data loads.
-- Error handling and logging capabilities, including reprocessing failed payloads.
+- Error handling and logging capabilities, including reprocessing failed payloads .
 - Extensibility for customer-specific adaptations and sample BAdI implementations.
 
 ### **Sample Implementation**
