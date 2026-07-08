@@ -175,7 +175,7 @@ Install all available fixes/new features transport requests from the [Fixes](Fix
    → **TR 901590.BP7** – PLM reports update 
 2. **Update V7.0.2** → TR **901660.BP7**
 
-3. **Update V7.1.0** → TR **901676.BP7** includes compliant requirements enhancements. More details you can find on [Fixes](Fixes) and on [User guide](/Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7_1.pdf).  
+3. **Update V7.1.0** → TR **901676.BP7** includes compliant requirements enhancements. More details you can find on [Fixes](Fixes) and on [User guide](../Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7_1.pdf).  
 
 </details>
 
