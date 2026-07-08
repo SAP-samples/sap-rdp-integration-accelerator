@@ -271,12 +271,45 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 ### **Update: V7.0.2 – May 2026**
 
-	### **TR 901609.BP7**
+	### **TR 901660.BP7**
 
 	### ✨ Features and Fixes
 
 	* **Performance Improvements**
 	  - Material Document Replication – The selection logic has been enhanced to additionally include Company code to allows 	    the database to leverage the primary key more efficiently.
+
+### **Update: V7.1.0 – July 2026 – PPWR Compliance Requirements Support**
+
+	### **TR 901676.BP7**
+
+	Release **V7.1.0** introduces support for **Packaging and Packaging Waste Regulation (PPWR)** compliance 	attributes for Product and Packaging Data replication.
+	
+	### ✨ New Features
+
+	> ⚠️ **Important Note**
+	> The **PPWR Compliance Requirements** functionality introduced in this release is supported **only when using 	the SAP Sustainability Solutions API (SDF API)**. These attributes are **not available in the RDP Push API**.
+
+	
+	The following enhancements are included:
+
+	* **Product Replication**
+
+  	* Added support for Manufacturer information.
+  	* Added support for Global Trade Item Numbers.
+
+	* **Packaging Data Replication**
+
+	  * Added support for Product Contact information.
+	  * Added support for Compliance Requirements associated with Packaging Elements and Packaging Compositions.
+
+	* **Classification Data Generation**
+
+	  * The **Create Characteristics and Classification Data** report has been enhanced to automatically generate 	the additional classes and characteristics required for storing PPWR compliance information in SAP ECC and SAP 	S/4HANA.
+
+	### 📘 Documentation
+
+	The [RDP Integration Accelerator Configuration Guide](/Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7_1.pdf) and [fields mapping](/Documentation/RDP fields mapping.pdf) documents has been updated accordingly.
+
  		
 ---
 ### **Installation Instructions for fixes**
