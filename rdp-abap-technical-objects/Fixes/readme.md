@@ -308,7 +308,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	### 📘 Documentation
 
-	The [RDP Integration Accelerator Configuration Guide](/Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7_1.pdf) and [fields mapping](/Documentation/RDP fields mapping.pdf) documents has been updated accordingly.
+	The RDP Integration Accelerator Configuration Guide and fields mapping documents has been updated accordingly.
 
  		
 ---
