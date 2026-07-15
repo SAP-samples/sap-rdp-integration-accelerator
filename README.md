@@ -91,7 +91,7 @@ The integration package provides several reports for required data replication, 
 - **Error Monitoring and Troubleshooting Reports** – Comprehensive logging and troubleshooting capabilities for monitoring replication status and resolving data inconsistencies.
 
 
-For a complete list of reports and instructions on how to load the data, refer to the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v6_0.6.pdf).
+For a complete list of reports and instructions on how to load the data, refer to the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7.1.pdf).
 
 ## BAdI Technical Documentation
 
@@ -103,7 +103,7 @@ For packaging fee data replication and mapping functionality, the **BAdI `/VPCOE
 
 For email notification processing enhancements, the **BAdI `/VPCOE/BADI_NOTIFICATION_PROCESSING`** needs to be implemented. 
 
-More details about these BAdIs and their usages can be found in the **[BAdI Technical Documentation](rdp-integration-enhancements-samples/)** and in the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v6_0.6.pdf).
+More details about these BAdIs and their usages can be found in the **[BAdI Technical Documentation](rdp-integration-enhancements-samples/)** and in the [RDP Integration Accelerator Guide](Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7.1.pdf).
 
 
 Sample BAdI implementations are included in the RDP IA package for all available BAdIs, to serve as a starting point for customer's own implementation.

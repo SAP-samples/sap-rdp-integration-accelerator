@@ -310,6 +310,14 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	The RDP Integration Accelerator Configuration Guide and fields mapping documents has been updated accordingly.
 
+### **Update: V7.1.1 – July 2026**
+
+	### **TR 901693.BP7**
+
+	### ✨ Features and Fixes
+
+	  - Product Replication – include compliance requirements attributes for Excel upload functionality.
+
  		
 ---
 ### **Installation Instructions for fixes**
