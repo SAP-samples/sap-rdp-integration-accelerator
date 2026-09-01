@@ -318,6 +318,25 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	  - Product Replication – include compliance requirements attributes for Excel upload functionality.
 
+### **Update: V7.1.2**
+	
+	### **TR 901706.BP7**
+
+	### ✨ Features and Fixes
+
+	- **Delivery Replication**
+  		- Added Product Type selection filter.
+  		- Improved performance of Delivery replication.
+  		- Ensured Delivery line items without a product and quantity are not replicated.
+
+	- **Material Document Replication**
+  		- Performance improvements for Material Document data selection and replication.
+
+	- **Packaging Fee Retrieval**
+  		- Improved handling of high-volume data retrieval to avoid report/job abortion.
+
+	- **Product Replication**
+  		- Extended Brand ID length to support up to 128 characters.
  		
 ---
 ### **Installation Instructions for fixes**
