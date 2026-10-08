@@ -178,7 +178,7 @@ Install all available fixes/new features transport requests from the [Fixes](Fix
 3. **Update V7.1.0** → TR **901676.BP7** includes compliant requirements enhancements. More details you can find on [Fixes](Fixes) and on [User guide](../Documentation/SAP_VP_RDP_Integration%20Accelerator_ConfigGuide_v7.1.pdf). 
 4. **Update V7.1.1** -> TR **901693.BP7** include compliant requirements attributes for Product replication excel file. 
 5. **Update V7.1.2** -> TR **901706.BP7** include performance improvements and fixes for Delivery, Material Document, Packaging Fee, and Product replication reports. You can find more details on the [Fixes](Fixes) folder. 
-
+6. **Update V7.1.3** -> TR **901721.BP7** includes support for statistical goods receipts in third-party drop shipment scenarios, extends PPWR code lists, and adds several fixes for product validity, replication ID handling, country determination.
 </details>
 
 © 2025 SAP SE or an SAP affiliate company. All rights reserved.

@@ -287,7 +287,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	### ✨ New Features
 
 	> ⚠️ **Important Note**
-	> The **PPWR Compliance Requirements** functionality introduced in this release is supported **only when using 	the SAP Sustainability Solutions API (SDF API)**. These attributes are **not available in the RDP Push API**.
+	> The **PPWR Compliance Requirements** functionality introduced is supported **only when using 	the SAP Sustainability Solutions API (SDF API)**. These attributes are **not available in the RDP Push API**.
 
 	
 	The following enhancements are included:
@@ -337,7 +337,35 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	- **Product Replication**
   		- Extended Brand ID length to support up to 128 characters.
- 		
+ 
+### **Update: V7.1.3**
+	
+	### **TR 901721.BP7**
+
+	### ✨ Features and Fixes
+	
+	- **Material Document Replication**
+  		- Supports drop shipment scenarios where no physical stock change occurs but statistical goods receipt 		information is required for reporting:
+			- Added **Statistical Goods Receipts** and **Statistical Goods Receipts for Import** variants
+		Note: The corresponding logistics process codes are supported only using SDF API replication.
+   		- Enhanced country determination logic for **GR-PO** and **GR_PO_IMP** to include manual address 		information when maintained.
+
+	- **PPWR Compliance Enhancements**
+		- Extended PPWR code lists with:
+  		- **Not Applicable** 
+  		- **Compostability / Recyclability**
+  		- **EUPIA**
+	- Updated the packaging composition example implementation to exclude the **Usage** attribute from being sent 	to RDP (deprecated attribute).
+
+	- **SDF API Enhancements and Fixes**
+   		- Added BAdI implementation support for the **Product Validity End Date API** for both RDP and SDF 		APIs.
+   		- Fixed an issue where the SDF API Replication ID was cleared during package processing.
+   		- Fixed replication failures in the **Base Entity Processor** when processing more than 500 entries.
+	
+	- **Delivery replication report**
+		- Enhance the logic to prevent empty JSON payloads for deliveries without items when custom data 		selection BAdIs are used.
+   		- Fixed the Delivery Report **Preview mode**.
+		
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
