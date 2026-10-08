@@ -263,7 +263,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	
 	* **Customer / Supplier Tax Number (CVI)
 	- Improved logic for tax number determination:
-  		- Uses CVI data when available (Fallback to KNA1/KNAS (Customer) or LFA1/LFAS (Supplier) if CVI is not 		maintained)
+  		- Uses CVI data when available (Fallback to KNA1/KNAS (Customer) or LFA1/LFAS (Supplier) if CVI is not	maintained)
 
 	* **Packaging data replication reports - Extensibility Enhancements for ABAP Structures
 	- Enhanced standard ABAP structures to improve extensibility  
@@ -276,13 +276,13 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	### ✨ Features and Fixes
 
 	* **Performance Improvements**
-	  - Material Document Replication – The selection logic has been enhanced to additionally include Company code to allows 	    the database to leverage the primary key more efficiently.
+	  - Material Document Replication – The selection logic has been enhanced to additionally include Company code to allows the database to leverage the primary key more efficiently.
 
 ### **Update: V7.1.0 – July 2026 – PPWR Compliance Requirements Support**
 
 	### **TR 901676.BP7**
 
-	Release **V7.1.0** introduces support for **Packaging and Packaging Waste Regulation (PPWR)** compliance 	attributes for Product and Packaging Data replication.
+	Release **V7.1.0** introduces support for **Packaging and Packaging Waste Regulation (PPWR)** compliance attributes for Product and Packaging Data replication.
 	
 	### ✨ New Features
 
@@ -304,7 +304,7 @@ This document provides details on the fixes available in the **Fixes** folder. A
 
 	* **Classification Data Generation**
 
-	  * The **Create Characteristics and Classification Data** report has been enhanced to automatically generate 	the additional classes and characteristics required for storing PPWR compliance information in SAP ECC and SAP 	S/4HANA.
+	  * The **Create Characteristics and Classification Data** report has been enhanced to automatically generate the additional classes and characteristics required for storing PPWR compliance information in SAP ECC and SAP S/4HANA.
 
 	### 📘 Documentation
 
@@ -345,25 +345,25 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	### ✨ Features and Fixes
 	
 	- **Material Document Replication**
-  		- Supports drop shipment scenarios where no physical stock change occurs but statistical goods receipt 		information is required for reporting:
+  		- Supports drop shipment scenarios where no physical stock change occurs but statistical goods receipt information is required for reporting:
 			- Added **Statistical Goods Receipts** and **Statistical Goods Receipts for Import** variants
 		Note: The corresponding logistics process codes are supported only using SDF API replication.
-   		- Enhanced country determination logic for **GR-PO** and **GR_PO_IMP** to include manual address 		information when maintained.
+   		- Enhanced country determination logic for **GR-PO** and **GR_PO_IMP** to include manual address information when maintained.
 
 	- **PPWR Compliance Enhancements**
 		- Extended PPWR code lists with:
   		- **Not Applicable** 
   		- **Compostability / Recyclability**
   		- **EUPIA**
-	- Updated the packaging composition example implementation to exclude the **Usage** attribute from being sent 	to RDP (deprecated attribute).
+	- Updated the packaging composition example implementation to exclude the **Usage** attribute from being sent to RDP (deprecated attribute).
 
 	- **SDF API Enhancements and Fixes**
-   		- Added BAdI implementation support for the **Product Validity End Date API** for both RDP and SDF 		APIs.
+   		- Added BAdI implementation support for the **Product Validity End Date API** for both RDP and SDF APIs.
    		- Fixed an issue where the SDF API Replication ID was cleared during package processing.
    		- Fixed replication failures in the **Base Entity Processor** when processing more than 500 entries.
 	
 	- **Delivery replication report**
-		- Enhance the logic to prevent empty JSON payloads for deliveries without items when custom data 		selection BAdIs are used.
+		- Enhance the logic to prevent empty JSON payloads for deliveries without items when custom data selection BAdIs are used.
    		- Fixed the Delivery Report **Preview mode**.
 		
 ---
