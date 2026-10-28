@@ -11,6 +11,13 @@ The code in the ABAP package can be used as it is published in this repository, 
 
 Starting with version **V7**, the accelerator supports data replication using **both the RDP Push API and the SAP Sustainability Solutions (SDF) API**, giving customers flexibility to choose the preferred integration method.
 
+## Important Notice: Support and Maintenance Timeline
+
+- Extended technical support for Integration Accelerator, including ticket support, will remain available through December 2027.
+- No new RDP features or code enhancements will be added to Integration Accelerator content after December 2026.
+- From January 2028, SAP will no longer support or maintain Integration Accelerator content. If you choose to continue using it, your teams will be responsible for maintaining and updating the integration content. Please refer to the How-to Guide for further guidance.
+
+
 ## Requirements
 
 - SAP ERP ECC 6.0 EHP7 SP16 (or later)/EHP8 or S/4HANA 1909/2021.
