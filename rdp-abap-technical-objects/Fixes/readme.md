@@ -365,7 +365,38 @@ This document provides details on the fixes available in the **Fixes** folder. A
 	- **Delivery replication report**
 		- Enhance the logic to prevent empty JSON payloads for deliveries without items when custom data selection BAdIs are used.
    		- Fixed the Delivery Report **Preview mode**.
-		
+
+### **Update: V7.1.4**
+	
+	### **TR 901729.BP7**
+
+	### ✨ Features and Fixes
+	
+	- **Packaging Composition**
+ 		- Added **Purpose** and **IsNotEmpty** attributes to the Packaging Composition Item entity.
+  		- Extended the SDF API structures to support the new attributes.
+  		- Updated BOM and PLM example mapping implementations to populate the new attributes.
+  		- Updated the Handling Unit example implementation to send initial values for these attributes.
+ 		- Extended the characteristic and classification creation report to support the new attributes.
+
+	- **Supplier Replication**
+  		- Extended Supplier data with Standard Address details:
+   			- Street
+   	 		- House Number
+   	 		- Postal Code
+   	 		- City
+ 	 	Added the corresponding attributes to the SDF API structure.
+
+	- **Product Replication**
+  		- Extended the EPR Product Family field length from 10 to 128 characters.
+ 		- Fixed the Product Report delta logic to ensure replication runs are properly closed.
+
+	- **BOM Replication**
+  		- Enhanced delta load processing to detect changes at item level, including changes to sub-assemblies and intermediate materials, ensuring packaging composition updates are replicated without requiring a full initial load.
+
+	- **Delivery Replication**
+  		- Changed the `ReferenceSDDocumentItem` field from numeric to string to support the API data structure.
+
 ---
 ### **Installation Instructions for fixes**
 To apply available fixes/updates:
